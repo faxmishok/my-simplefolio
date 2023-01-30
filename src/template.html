@@ -89,7 +89,7 @@
               alt="Profile Image" />
           </div>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 d-flex align-items-center">
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
               My name is Fahmin Guliyev and I am currently pursuing my Master's degree at Politecnico di Milano majoring
@@ -126,7 +126,7 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">GIS Web Platform</h3>
               <div>
@@ -159,7 +159,7 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">O-Sci-Lator</h3>
               <div>
@@ -191,9 +191,9 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">SecUrZone - Bug Bounty</h3>
+              <h3 class="project-wrapper__text-title">SecUrZone &ndash; Bug Bounty</h3>
               <div>
                 <p class="mb-4">
                   SecUrZone is an intended bug bounty platform of Azerbaijan.
@@ -226,7 +226,7 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Conway's Game of Life</h3>
               <div>
@@ -261,7 +261,7 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Love Letter Board Game</h3>
               <div>
@@ -296,7 +296,7 @@
 
         <!-- Each .row is a project -->
         <div class="row">
-          <div class="col-lg-4 col-sm-12">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Transaction Controller</h3>
               <div>
@@ -327,6 +327,39 @@
         </div>
         <!-- /END Project -->
 
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 d-flex align-items-center">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Villa Fiori &ndash; Hotel Website</h3>
+              <div>
+                <p class="mb-4">
+                  Villa Fiori is a hotel website developed for a certain university subject under educational purposes.
+                  The website just serves to be an informative one rather than a typical online booking web application.
+                  Technologies during the development process of this particular project include basic HTML, CSS,
+                  Bootstrap and lastly a bit of JavaScript.
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://villafiorihotel.live">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/tilfrancess/tilfrancess.github.io">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="https://villafiorihotel.live" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/hotel.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
       </div>
     </div>
@@ -340,7 +373,7 @@
       <div class="contact-wrapper">
         <p class="contact-wrapper__text">Would you like to work with me? Awesome!
         </p>
-        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:baku.fehmin@gmail.com">Let's Talk</a>
+        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:fahmin.guliyev@mail.polimi.it">Let's Talk</a>
       </div>
     </div>
   </section>
@@ -371,7 +404,10 @@
 
       <!-- If you give me some credit, will be huge for me :) -->
       <p class="footer__text">
-        © 2021 -
+        &copy;
+        <span id="copyright">
+          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span>
         <a href="https://github.com/faxmishok" target="_blank">Fahmin Guliyev</a>
       </p>
 
